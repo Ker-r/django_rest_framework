@@ -20,16 +20,16 @@
 ## Установить все зависимости из requirements 
 ``` pip install -r requirements.txt ```
 
-### Создать миграции
+## Создать миграции
 ``` python manage.py makemigrations ```
 
-### Применить миграции
+## Применить миграции
 ``` python manage.py migrate ```
 
-### Создать суперюзера
+## Создать суперюзера
 ``` python manage.py createsuperuser ```
 
-### Запустить проект 
+## Запустить проект 
 ``` python3 manage.py runserver ```
 
 
