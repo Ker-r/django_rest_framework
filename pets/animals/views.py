@@ -26,6 +26,7 @@ class AnimalViewSet(viewsets.ModelViewSet):
             return Animal.objects.all()
         return Animal.objects.filter(pk=pk)
 
+    # Декоратор создает новый маршрут
     # При detail=False выводится список записей, а при True - одна запись
     @action(methods=['get'], detail=True)
     # Метод должен возвращать JSON ответ
